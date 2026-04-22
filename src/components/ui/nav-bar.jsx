@@ -34,9 +34,9 @@ export function Nav() {
 		>
 			<div className="sticky top-0 z-20 w-full bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800">
 				<div className="flex h-16 w-full items-center justify-between px-8 md:px-16">
-					<span className="text-xl font-bold text-white tracking-widest uppercase">
-						João
-					</span>
+					<div className="text-xl font-bold text-white tracking-widest uppercase hover:text-zinc-400 transition-colors">
+						<a href="#intro" > João </a>
+					</div>
 
 					<div className="flex gap-6 text-sm font-medium text-zinc-400">
 						<a href="#sobre" className="hover:text-white transition-colors">Sobre</a>

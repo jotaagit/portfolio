@@ -3,7 +3,7 @@ import { Nav } from '../../components/ui/nav-bar';
 
 function Home() {
 	return (
-		<div className="min-h-screen bg-zinc-950 text-gray-200">
+		<div id="intro" className="min-h-screen bg-zinc-950 text-gray-200">
 			<Nav />
 			<main className="flex min-h-[calc(100vh-4rem)] items-center justify-center p-8">
 				<div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
