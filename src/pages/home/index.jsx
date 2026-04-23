@@ -93,6 +93,37 @@ function Home() {
 
 				</div>
 			</section>
+			<section id="projetos" className="flex min-h-screen items-center justify-center bg-zinc-950 p-8 md:p-16 border-t border-zinc-900">
+				<div className="max-w-5xl w-full flex flex-col md:flex-row gap-12 md:gap-20 items-center md:items-start">
+
+
+					<div className="md:w-1/3 w-full bg-zinc-900/50 p-6 rounded-xl border border-zinc-800 shadow-xl">
+						<h3 className="text-xl font-bold text-white font-mono mb-4">~/robotica_social</h3>
+						<div className="h-56 w-56 md:h-90 md:w-72 overflow-hidden border border-zinc-800 shadow-2xl">
+							<img
+								src="/IMG4.png"
+								alt="robos"
+								className="h-full w-full object-cover"
+							/>
+						</div>
+
+					</div>
+					<div className="flex-1 space-y-6 text-zinc-400 text-lg leading-relaxed">
+						<h2 className="text-3xl font-bold text-white font-mono mb-6">&gt; projetos</h2>
+						<h1 className="text-1xl font-bold text-white font-mono mb-6">.Iniciação Científica em Robótica Social</h1>
+						<p>
+							Realizei pesquisa científica focada no uso de robôs sociais para promover a alfabetização digital entre idosos.
+						</p>
+						<p>
+							Junto a minha equipe, criei aplicativos para o robô TEMU em <strong className="text-zinc-200 font-medium">Python</strong>, aprimorando a capacidade de resposta da máquina
+						</p>
+						<p>
+							Obtivemos uma coleta robusta de dados por meio de software em mais de <strong className="text-zinc-200 font-medium">4</strong> casas de repouso, abrangendo mais de <strong className="text-zinc-200 font-medium">50</strong> usuários.
+						</p>
+					</div>
+				</div>
+			</section>
+
 		</div>
 	);
 }
