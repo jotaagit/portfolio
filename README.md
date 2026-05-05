@@ -14,7 +14,7 @@
    - Lucide React: Biblioteca de ícones.
 
   📂 Estrutura do Projeto
-
+  
    1 src/
    2 ├── components/ui/      # Componentes de interface reutilizáveis (ex: Navbar)
    3 ├── pages/home/         # Página principal com as seções (Intro, Sobre, Projetos, Contato)
