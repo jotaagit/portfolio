@@ -123,7 +123,22 @@ function Home() {
 					</div>
 				</div>
 			</section>
+			<section id="contato" className="flex min-h-screen items-center justify-center bg-zinc-950 p-8 md:p-16 border-t border-zinc-900">
+				<div className="max-w-5xl w-full gap-12 md:gap-20 items-center md:items-start">
 
+					<div className="flex-1 space-y-6 text-zinc-400 text-lg leading-relaxed">
+						<h2 className="text-center text-3xl font-bold text-white font-mono mb-6">&gt; contato</h2>
+					</div>
+					<div className="md:w-2/3 w-full mx-auto bg-zinc-900/50 p-6 rounded-xl border border-zinc-800 shadow-xl">
+						<div className="flex flex-wrap gap-3">
+						<span className="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-md text-sm font-mono border border-zinc-700">jpcs2006@gmail.com</span>
+						<span className="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-md text-sm font-mono border border-zinc-700">linkedin/in/joaopedrocs12</span>
+						<span className="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-md text-sm font-mono border border-zinc-700">github.com/jotaagit</span>
+						</div>
+					</div>
+
+				</div>
+			</section>
 		</div>
 	);
 }
