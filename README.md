@@ -15,11 +15,11 @@
 
   📂 Estrutura do Projeto
   
-   1 src/
-   2 ├── components/ui/      # Componentes de interface reutilizáveis (ex: Navbar)
-   3 ├── pages/home/         # Página principal com as seções (Intro, Sobre, Projetos, Contato)
-   4 ├── assets/             # Imagens e recursos estáticos (armazenados em /public)
-   5 └── index.css           # Configurações globais de estilo e Tailwind
+   src/
+   |_ components/ui     # Componentes de interface reutilizáveis (ex: Navbar)
+   |_ pages/home/       # Página principal com as seções (Intro, Sobre, Projetos, Contato)
+   |_ assets/           # Configurações globais de estilo e Tailwind            
+   |_ index.css         # Imagens e recursos estáticos (armazenados em /public)
 
   💻 Minha Stack
 
