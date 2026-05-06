@@ -68,7 +68,7 @@ function Home() {
 					<div className="flex-1 space-y-6 text-zinc-400 text-lg leading-relaxed">
 						<h2 className="text-3xl font-bold text-white font-mono mb-6">&gt; sobre_mim</h2>
 						<p>
-							Sou um Desenvolvedor Full Stack e estudante de Sistemas de Informação na USP. Tenho paixão por construir aplicações completas, cuidando desde a modelagem do banco de dados até a interface final do usuário.
+							Tenho 19 anos, sou um Desenvolvedor Full Stack e estudante de Sistemas de Informação na USP. Tenho paixão por construir aplicações completas, cuidando desde a modelagem do banco de dados até a interface final do usuário.
 						</p>
 						<p>
 							No back-end, desenvolvo APIs robustas e escaláveis utilizando <strong className="text-zinc-200 font-medium">Java e Spring Boot</strong>, com gerenciamento de dados em <strong className="text-zinc-200 font-medium">PostgreSQL</strong>. No front-end, crio interfaces dinâmicas e responsivas utilizando <strong className="text-zinc-200 font-medium">JavaScript e React</strong>.
@@ -94,9 +94,10 @@ function Home() {
 				</div>
 			</section>
 			<section id="projetos" className="flex min-h-screen items-center justify-center bg-zinc-950 p-8 md:p-16 border-t border-zinc-900">
-				<div className="max-w-5xl w-full flex flex-col md:flex-row gap-12 md:gap-20 items-center md:items-start">
+				<div className="max-w-5xl w-full flex flex-col gap-12">
+						<h2 className="text-3xl font-bold text-white font-mono mb-6">&gt; projetos</h2>
 
-
+				<div className="flex flex-col md:flex-row gap-12 md:gap-20 items-center md:items-start w-full">
 					<div className="md:w-1/3 w-full bg-zinc-900/50 p-6 rounded-xl border border-zinc-800 shadow-xl">
 						<h3 className="text-xl font-bold text-white font-mono mb-4">~/robotica_social</h3>
 						<div className="h-56 w-56 md:h-90 md:w-72 overflow-hidden border border-zinc-800 shadow-2xl">
@@ -109,17 +110,43 @@ function Home() {
 
 					</div>
 					<div className="flex-1 space-y-6 text-zinc-400 text-lg leading-relaxed">
-						<h2 className="text-3xl font-bold text-white font-mono mb-6">&gt; projetos</h2>
 						<h1 className="text-1xl font-bold text-white font-mono mb-6">.Iniciação Científica em Robótica Social</h1>
 						<p>
 							Realizei pesquisa científica focada no uso de robôs sociais para promover a alfabetização digital entre idosos.
 						</p>
 						<p>
-							Junto a minha equipe, criei aplicativos para o robô TEMU em <strong className="text-zinc-200 font-medium">Python</strong>, aprimorando a capacidade de resposta da máquina
+							Criei aplicativos para o robô TEMU em <strong className="text-zinc-200 font-medium">Python</strong>, aprimorando a capacidade de resposta da máquina
 						</p>
 						<p>
 							Obtivemos uma coleta robusta de dados por meio de software em mais de <strong className="text-zinc-200 font-medium">4</strong> casas de repouso, abrangendo mais de <strong className="text-zinc-200 font-medium">50</strong> usuários.
 						</p>
+					</div>
+					</div>
+					<div className="flex flex-col md:flex-row gap-12 md:gap-20 items-center md:items-start w-full">
+					
+					<div className="flex-1 space-y-6 text-zinc-400 text-lg leading-relaxed">
+						<h1 className="text-1xl font-bold text-white font-mono mb-6">.Portfólio Pessoal</h1>
+						<p>
+							Desenvolvi ste portfólio web para apresentar minha trajetória como estudante de Sistemas de Informação na USP, destacando minhas competências como desenvolvedor Full Stack e projetos recentes.
+						</p>
+						<p>
+							Construí a aplicação utilizando <strong className="text-zinc-200 font-medium">React 19</strong> e Vite, com estilização em <strong className="text-zinc-200 font-medium">Tailwind CSS v4</strong>, adotando uma estética minimalista e no modo escuro, fortemente inspirada no ambiente de terminal.
+						</p>
+						<p>
+							A arquitetura do projeto foi desenhada com foco estrito em eficiência e performance, implementando roteamento dinâmico e integração com Framer Motion para uma navegação fluida e altamente responsiva.
+						</p>
+					</div>
+					<div className="md:w-1/3 w-full bg-zinc-900/50 p-6 rounded-xl border border-zinc-800 shadow-xl">
+						<h3 className="text-xl font-bold text-white font-mono mb-4">~/portfólio</h3>
+						<div className="h-56 w-56 md:h-90 md:w-72 overflow-hidden border border-zinc-800 shadow-2xl">
+							<img
+								src="/IMG_5593.jpeg"
+								alt="robos"
+								className="h-full w-full object-cover"
+							/>
+						</div>
+
+					</div>
 					</div>
 				</div>
 			</section>
@@ -129,11 +156,9 @@ function Home() {
 					<div className="flex-1 space-y-6 text-zinc-400 text-lg leading-relaxed">
 						<h2 className="text-center text-3xl font-bold text-white font-mono mb-6">&gt; contato</h2>
 					</div>
-					<div className="md:w-2/3 w-full mx-auto bg-zinc-900/50 p-6 rounded-xl border border-zinc-800 shadow-xl">
-						<div className="flex flex-wrap gap-3">
-						<span className="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-md text-sm font-mono border border-zinc-700">jpcs2006@gmail.com</span>
-						<span className="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-md text-sm font-mono border border-zinc-700">linkedin/in/joaopedrocs12</span>
-						<span className="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-md text-sm font-mono border border-zinc-700">github.com/jotaagit</span>
+					<div className="md:w-1/4 w-full mx-auto bg-zinc-900/50 p-6 rounded-xl border border-zinc-800 shadow-xl">
+						<div className="flex flex-wrap gap-3 items-center justify-center">
+						<span className= "px-3 py-1 bg-zinc-800 text-zinc-300 rounded-md text-sm font-mono border border-zinc-700">jpcs2006@gmail.com</span>
 						</div>
 					</div>
 
