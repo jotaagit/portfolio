@@ -68,7 +68,7 @@ function Home() {
 					<div className="flex-1 space-y-6 text-zinc-400 text-lg leading-relaxed">
 						<h2 className="text-3xl font-bold text-white font-mono mb-6">&gt; sobre_mim</h2>
 						<p>
-							Tenho 19 anos, sou um Desenvolvedor Full Stack e estudante de Sistemas de Informação na USP. Tenho paixão por construir aplicações completas, cuidando desde a modelagem do banco de dados até a interface final do usuário.
+							Tenho 19 anos e sou um Desenvolvedor Full Stack e estudante de Sistemas de Informação na USP. Tenho paixão por construir aplicações completas, cuidando desde a modelagem do banco de dados até a interface final do usuário.
 						</p>
 						<p>
 							No back-end, desenvolvo APIs robustas e escaláveis utilizando <strong className="text-zinc-200 font-medium">Java e Spring Boot</strong>, com gerenciamento de dados em <strong className="text-zinc-200 font-medium">PostgreSQL</strong>. No front-end, crio interfaces dinâmicas e responsivas utilizando <strong className="text-zinc-200 font-medium">JavaScript e React</strong>.
